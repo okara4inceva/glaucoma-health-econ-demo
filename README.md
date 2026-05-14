@@ -20,7 +20,6 @@ The full GitHub-ready project package is uploaded as a ZIP file in this reposito
 - output tables and charts
 - CRF template
 - real-world data collection plan
-- interview pitch document
 
 ## Health economics angle
 
