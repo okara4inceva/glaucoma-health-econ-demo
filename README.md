@@ -287,6 +287,7 @@ This helps identify which assumptions should be prioritized for validation in a 
 
 In a real hospital research setting, assumptions would be replaced with approved, de-identified hospital clinical data sources, including:
 
+- EHR
 - ophthalmology clinic records
 - OCT systems
 - visual field systems
