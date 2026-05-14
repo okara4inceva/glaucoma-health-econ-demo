@@ -7,7 +7,7 @@
 ![Methods](https://img.shields.io/badge/methods-budget_impact_%7C_sensitivity_analysis-orange)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
-## Executive summary
+## Summary
 
 This repository presents a rapid health economics demo evaluating **structured early glaucoma detection** compared with **usual care** in an ophthalmology setting.
 
