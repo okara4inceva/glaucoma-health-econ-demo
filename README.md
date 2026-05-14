@@ -345,19 +345,6 @@ Potential next steps:
 
 ---
 
-## Suggested CV description
-
-**Glaucoma Early Detection Health Economics Demo**  
-*Python | Simulated Data | Budget Impact Analysis | Cost-Consequence Analysis | Ophthalmology Research*
-
-- Developed a rapid health economics demo evaluating structured early glaucoma detection compared with usual care in an ophthalmology setting.
-- Created a simulated patient-level dataset including risk factors, intraocular pressure, OCT result, visual field result, disease stage, management plan, direct costs, and productivity loss.
-- Built a budget impact and cost-consequence model estimating additional early cases detected, advanced cases avoided, productivity loss avoided, and cost per additional early case detected.
-- Conducted one-way sensitivity analysis to evaluate the impact of screening cost, prevalence, detection rate, progression risk, and advanced glaucoma cost assumptions.
-- Designed a real-world data collection plan using approved, de-identified hospital clinical data sources after IRB approval and clinician validation.
-
----
-
 ## Disclaimer
 
-This project is for demonstration and portfolio purposes only. It does not contain real patient data, does not provide medical advice, and does not represent clinical or economic evidence for decision-making.
+This project is for demonstration and portfolio purposes only and it does not contain real patient data.
