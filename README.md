@@ -7,7 +7,7 @@
 ![Methods](https://img.shields.io/badge/methods-budget_impact_%7C_sensitivity_analysis-orange)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
-## Summary
+## Executive summary
 
 This repository presents a rapid health economics demo evaluating **structured early glaucoma detection** compared with **usual care** in an ophthalmology setting.
 
@@ -28,7 +28,54 @@ The demo estimates:
 
 ---
 
-## Why glaucoma?
+## Data origin and collection approach
+
+This demo does **not** use data collected from any hospital, or any real patients.
+
+The patient-level dataset in this repository is **synthetically generated** using Python in:
+
+```text
+src/generate_demo_data.py
+```
+
+The simulated dataset was created only to demonstrate the structure of a possible ophthalmology health economics dataset and to make the model reproducible.
+
+### Data used in this demo
+
+| Data component | Source in this demo | Purpose |
+|---|---|---|
+| Patient-level dataset | Simulated in Python | Demonstrates how variables could be structured for analysis |
+| Risk factors | Simulated assumptions | Shows potential glaucoma risk stratification logic |
+| IOP, OCT, and visual field results | Simulated values | Demonstrates ophthalmology-related variables |
+| Glaucoma diagnosis and disease stage | Simulated classification | Supports the cost-consequence model |
+| Direct healthcare costs | Illustrative assumptions | Demonstrates budget impact modelling |
+| Productivity loss | Illustrative assumptions | Demonstrates broader societal cost impact |
+| Sensitivity analysis inputs | Illustrative ranges | Shows which assumptions most affect the results |
+
+### Why simulated data was used
+
+Simulated data was used because this is a safe portfolio demo. It avoids patient privacy risk and does not require access to any internal clinical system.
+
+The purpose is to show the **methodological workflow**, not to produce clinical or economic evidence.
+
+### How real-world data would be collected in a future study
+
+In a real research project, assumptions would be replaced only with **approved, de-identified hospital clinical data sources** after IRB approval, data governance clearance, and clinician validation.
+
+Potential real-world sources may include:
+
+- ophthalmology clinic records
+- OCT systems
+- visual field systems
+- pharmacy data
+- billing / finance data
+- patient-reported outcomes, if available
+- coding/diagnosis records, where approved and validated
+
+Final variable definitions, ICD/coding logic, disease stage classification, and cost inputs would need to be validated by the clinical, coding, research, and data governance teams.
+
+
+## Glaucoma
 
 Glaucoma is a chronic progressive eye disease where delayed diagnosis may lead to irreversible visual impairment. From a health economics perspective, glaucoma is important because disease progression can affect:
 
@@ -240,7 +287,6 @@ This helps identify which assumptions should be prioritized for validation in a 
 
 In a real hospital research setting, assumptions would be replaced with approved, de-identified hospital clinical data sources, including:
 
-- EHR
 - ophthalmology clinic records
 - OCT systems
 - visual field systems
@@ -343,6 +389,19 @@ Potential next steps:
 5. Compare screening strategies by age group, risk group, or referral source.
 6. Add probabilistic sensitivity analysis.
 7. Prepare manuscript-ready tables and figures.
+
+---
+
+## Suggested CV description
+
+**Glaucoma Early Detection Health Economics Demo**  
+*Python | Simulated Data | Budget Impact Analysis | Cost-Consequence Analysis | Ophthalmology Research*
+
+- Developed a rapid health economics demo evaluating structured early glaucoma detection compared with usual care in an ophthalmology setting.
+- Created a simulated patient-level dataset including risk factors, intraocular pressure, OCT result, visual field result, disease stage, management plan, direct costs, and productivity loss.
+- Built a budget impact and cost-consequence model estimating additional early cases detected, advanced cases avoided, productivity loss avoided, and cost per additional early case detected.
+- Conducted one-way sensitivity analysis to evaluate the impact of screening cost, prevalence, detection rate, progression risk, and advanced glaucoma cost assumptions.
+- Designed a real-world data collection plan using approved, de-identified hospital clinical data sources after IRB approval and clinician validation.
 
 ---
 
