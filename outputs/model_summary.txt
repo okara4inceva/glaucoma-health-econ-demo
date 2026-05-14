@@ -1,0 +1,23 @@
+Glaucoma Health Economics Demo - Base Case Results
+==========================================================
+
+target_population_screened: 1000
+expected_glaucoma_cases: 50.0
+detected_cases_usual_care: 20.0
+detected_cases_early_detection: 40.0
+additional_early_cases_detected: 20.0
+screening_program_cost_aed: 250000
+advanced_cases_usual_care: 12.5
+advanced_cases_early_detection: 5.0
+advanced_cases_avoided: 7.5
+direct_cost_usual_care_aed: 131250.0
+direct_cost_early_detection_aed: 347500.0
+incremental_direct_budget_impact_aed: 216250.0
+productivity_loss_usual_care_aed: 137500.0
+productivity_loss_early_detection_aed: 85000.0
+productivity_loss_avoided_aed: 52500.0
+total_societal_cost_usual_care_aed: 268750.0
+total_societal_cost_early_detection_aed: 432500.0
+net_societal_budget_impact_aed: 163750.0
+cost_per_additional_early_case_detected_aed: 12500.0
+cost_per_advanced_case_avoided_aed: 28833.33
